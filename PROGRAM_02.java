@@ -5,7 +5,7 @@ Roll No: 08
 */
 
 import java.io.*;
-class SWTCH {
+class PROGRAM_02 {
     public static void main(String args[]) {
         if (args.length < 3) {
             System.out.println("Usage: java CLA1 <num1> <num2> <option>");
