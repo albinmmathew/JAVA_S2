@@ -1,12 +1,13 @@
 /*PROGRAM 6 ADDITION AND MULTIPLICATION OF MATRICES
 @ALBIN MAMMEN MATHEW
 Roll No: 08 
-Date: 20/11/2025
+Date: 27/11/2025
 */
 
 import java.io.*;
 import java.util.*;
 class MOpp{
+	//Function to read and return a matrix 
 	public int[][] read(){
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number of rows and columns : ");
@@ -21,7 +22,7 @@ class MOpp{
 		}
 		return mat;
 	}
-
+	//Function to display a matrix
 	public void display(int mat[][]){
 		for (int i = 0; i < mat.length; i++){
 			for (int j = 0; j < mat[0].length; j++){
@@ -30,7 +31,7 @@ class MOpp{
 			System.out.println();
 		}
 	}
-
+	//Function to add two matrices if dimensions allign
 	public void sum(int a[][],int b[][]){
 		if(a.length == b.length && a[0].length == b[0].length){
 			int sum[][] =  new int[a.length][a[0].length];
@@ -46,7 +47,7 @@ class MOpp{
 			System.out.println("The given matrices have different Dimension.");
 		}
 	}
-
+	//Function to multiply two matrices if dimensions allign
 	public void multiply(int a[][], int b[][]){
 		if(a[0].length == b.length){
 			int mult[][] = new int[a.length][b[0].length];

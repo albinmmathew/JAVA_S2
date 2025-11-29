@@ -1,7 +1,7 @@
 /*PROGRAM 4 SEARCHING AND SORTING IN ARRAY
 @ALBIN MAMMEN MATHEW
 Roll No: 08 
-Date: 20/11/2025
+Date: 27/11/2025
 */
 
 import java.io.*;
@@ -20,7 +20,6 @@ class array{
 		}
 		return arr;
 	}
-
 	//Function for displaying array
 	public void disp(int arr[]){
 		for (int i = 0; i < arr.length; i++){
@@ -28,7 +27,6 @@ class array{
 		}
 		System.out.println();
 	}
-
 	//Function to Search for an element in an array:
 	public void search(int arr[]){
 		Scanner s = new Scanner(System.in);
@@ -44,7 +42,6 @@ class array{
 		if (!isFound)
 			System.out.println("Element not found.");
 	}
-
 	//Function to sort an array
 	public void sort(int arr[]){
 		int temp;
