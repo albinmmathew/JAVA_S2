@@ -1,4 +1,4 @@
-/*PROGRAM 10 Displaying first n numbers using recursion
+/*PROGRAM 10 DISPLAYING FIRST N NUMBERS USING RECURSION
 @ALBIN MAMMEN MATHEW
 Roll No: 08 
 Date: 29/11/2025
