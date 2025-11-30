@@ -6,7 +6,7 @@ Date: 17/11/2025
 
 import java.io.*;
 
-class PROGRAM_02 {
+class PROGRAM02 {
 	public static void main(String args[]) {
 		//Checking number of arguments
 		if (args.length < 3) {

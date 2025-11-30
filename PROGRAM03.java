@@ -7,7 +7,7 @@ Date: 27/11/2025
 import java.io.*;
 import java.util.*;
 
-class PROGRAM_03 {
+class PROGRAM03 {
 	public static void main(String args[]) {
 		int key = 24, count = 0, guess;
 		Scanner s = new Scanner(System.in);

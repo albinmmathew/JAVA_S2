@@ -12,7 +12,7 @@ class Max{
 		return a > b ? a : b;
 	}
 }
-class PROGRAM_07{
+class PROGRAM07{
 	public static void main(String args[]){
 		Scanner s = new Scanner(System.in);
 		Max m = new Max();

@@ -27,7 +27,7 @@ class Palindrome{
 	}
 }
 
-class PROGRAM_08 {
+class PROGRAM08 {
 	public static void main(String args[]){
 		Scanner s = new Scanner(System.in);
 		Palindrome p = new Palindrome();

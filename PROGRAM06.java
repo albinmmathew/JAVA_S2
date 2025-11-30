@@ -67,7 +67,8 @@ class MOpp{
 		}
 	}
 }
-class PROGRAM_06 {
+
+class PROGRAM06 {
 	public static void main(String args[]){	
 		MOpp obj  = new MOpp();
 		int a[][], b[][];

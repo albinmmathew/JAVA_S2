@@ -8,24 +8,25 @@ import java.io.*;
 import java.util.*;
 
 class Recursive {
-	//Function to display in descending order (n - 1) 
+	// Function to display in descending order (n - 1)
 	public void DescRec(int n) {
-		if(n > 0){
+		if (n > 0) {
 			System.out.print(n + "\t");
-			DescRec(n-1);
+			DescRec(n - 1);
 		}
 	}
-	//Function to display in ascending order (1 - n)
-	public void AscRec(int n){
-		if(n > 0){
-			AscRec(n-1);
+
+	// Function to display in ascending order (1 - n)
+	public void AscRec(int n) {
+		if (n > 0) {
+			AscRec(n - 1);
 			System.out.print(n + "\t");
 		}
 	}
 }
 
-class PROGRAM_10 {
-	public static void main(String args[]){
+class PROGRAM10 {
+	public static void main(String args[]) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int n = s.nextInt();

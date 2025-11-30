@@ -59,7 +59,7 @@ class array{
 	}
 }
 
-class PROGRAM_04 {
+class PROGRAM04 {
 	public static void main(String args[]){
 		array obj = new array();
 		int a[] = obj.read();

@@ -6,7 +6,7 @@ Date: 17/11/2025
 
 import java.io.*;
 
-class PROGRAM_01 {
+class PROGRAM01 {
 	public static void main(String args[]) {
 		int n1 = Integer.parseInt(args[0]);
 		int n2 = Integer.parseInt(args[1]);

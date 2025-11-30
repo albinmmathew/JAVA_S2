@@ -11,8 +11,9 @@ class Student {
 	int sno;
 	String sname;
 	String sprogram;
-	//Function to read a Student Details
-	public void read(){
+
+	// Function to read a Student Details
+	public void read() {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter Sno: ");
 		sno = s.nextInt();
@@ -22,23 +23,25 @@ class Student {
 		System.out.println("Enter Program: ");
 		sprogram = s.nextLine();
 	}
-	//Function to display Student Details
-	public void display(){
+
+	// Function to display Student Details
+	public void display() {
 		System.out.println("Sno: " + sno);
 		System.out.println("Name: " + sname);
 		System.out.println("Program: " + sprogram);
 	}
-	//Function to compare two Student Details
-	public void compare(Student t){
-		if(sno == t.sno && sname.equals(t.sname) && sprogram.equals(t.sprogram))
+
+	// Function to compare two Student Details
+	public void compare(Student t) {
+		if (sno == t.sno && sname.equals(t.sname) && sprogram.equals(t.sprogram))
 			System.out.println("They are same.");
 		else
 			System.out.println("They are not same.");
 	}
 }
 
-class PROGRAM_14 {
-	public static void main(String args[]){
+class PROGRAM14 {
+	public static void main(String args[]) {
 		Student s = new Student();
 		Student t = new Student();
 		s.read();
@@ -48,4 +51,3 @@ class PROGRAM_14 {
 		s.compare(t);
 	}
 }
-
