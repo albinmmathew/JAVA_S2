@@ -23,7 +23,10 @@ class SLIDER {
 	public void printboard(){
 		for(int i = 0; i < SIZE; i++){
 			for(int j = 0; j < SIZE; j++){
-				System.out.print(Board[i][j] + "\t");
+				if (Board[i][j] == 0)
+					System.out.print(" \t");
+				else
+					System.out.print(Board[i][j] + "\t");
 			}
 			System.out.println();
 		}
@@ -60,19 +63,7 @@ class SLIDER {
 		}
 		return false;
 	}
-	//public Boolean checkwin(){
-	//	int count = 1;
-	//	for(int i = 0; i < SIZE; i++){
-	//		for (int j = 0; j < SIZE; j++){
-	//			if(i == (SIZE-1) && j == (SIZE-1)) 
-	//				break;
-	//			if (Board[i][j] != count)
-	//					return false;
-	//			count++;
-	//		}
-	//	}
-	//	return Board[SIZE - 1][SIZE - 1] == 0;
-	//}
+	
 	public Boolean checkwin(){
 		int count = 1;
 		for(int i = 0; i < SIZE; i++){
