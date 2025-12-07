@@ -8,26 +8,31 @@ import java.io.*;
 import java.util.*;
 
 class Complexno{
-    int real, imaginary;
+    int real, imaginary;	//Variables for coefficients
     Scanner s = new Scanner(System.in);
-    public Complexno(){ //default 
+	//Constructor for default allocation
+    public Complexno(){ 
         real = 0;
         imaginary = 0;
     }
+	//Function to read the complex number
     public void read(){
         System.out.println("Enter the real and imaginary coefficient");
         real = s.nextInt();
         imaginary = s.nextInt();
     }
+	//Function to display the complex number
     public void disp(){
         System.out.println("Expression : " + real + " + " + imaginary +"i ");
     }
+	//Function to add 2 complex number and return the sum
     public Complexno add(Complexno c){
         Complexno sum = new Complexno();
         sum.real = real + c.real;
         sum.imaginary = imaginary + c.imaginary;
         return sum;
     } 
+	//Function to multiply 2 complex number and return the product
     public Complexno multiply(Complexno c){
         Complexno product = new Complexno();
         product.real = (real * c.real) - (imaginary * c.imaginary);

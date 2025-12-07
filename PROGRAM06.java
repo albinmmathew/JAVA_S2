@@ -10,7 +10,7 @@ class MOpp{
 	Scanner s = new Scanner(System.in);
 	//Function to read and return a matrix 
 	public int[][] read(){
-		System.out.println("Enter the number of rows and columns : ");
+		System.out.print("Enter the number of rows and columns : ");
 		int r = s.nextInt();
 		int c = s.nextInt();
 		int mat[][] = new int[r][c];
@@ -31,7 +31,7 @@ class MOpp{
 			System.out.println();
 		}
 	}
-	//Function to add two matrices if dimensions allign
+	//Function to add two matrices if dimensions align
 	public void sum(int a[][],int b[][]){
 		if(a.length == b.length && a[0].length == b[0].length){
 			int sum[][] =  new int[a.length][a[0].length];
@@ -73,7 +73,7 @@ class MOpp{
 			System.out.println("1 - Addition");
 			System.out.println("2 - Multiplication");
 			System.out.println("3 - Exit");
-			System.out.println("Enter Your choice: ");
+			System.out.print("Enter Your choice: ");
 			int choice = s.nextInt();
 			switch(choice) {
 				case 1:

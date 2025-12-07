@@ -12,9 +12,9 @@ class CalculatorOOP {
 	//Function to Read the two numbers
 	public void read() {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter a : ");
+		System.out.print("Enter a : ");
 		a = s.nextInt();
-		System.out.println("Enter b : ");
+		System.out.print("Enter b : ");
 		b = s.nextInt();
 	}
 	//Function to add and display the sum
@@ -50,6 +50,7 @@ class PROGRAM11 {
 			System.out.println("3 - Multiplication.");
 			System.out.println("4 - Division.");
 			System.out.println("5 - Exit.");
+			System.out.print("Enter your choice: ");
 			choice = s.nextInt();
 			switch(choice) {
 				case 1:

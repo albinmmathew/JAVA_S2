@@ -23,7 +23,7 @@ class PROGRAM02 {
 				System.out.println("Result: " + opp);
 				break;
 				
-			case 2:	//Substraction
+			case 2:	//Subtraction
 				opp = n1 - n2;
 				System.out.println("Result: " + opp);
 				break;

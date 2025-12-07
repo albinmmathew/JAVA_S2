@@ -14,6 +14,10 @@ class PROGRAM03 {
 		do{
 			System.out.println("Predict a Number between 20 and 30 :");
 			guess = s.nextInt();
+			if(guess < 20 || guess >30){
+				System.out.println("INVALID: Enter a number between 20  and 30");
+				continue;
+			}
 			count++;
 		} while(guess != key);
 		System.out.println("Congrats!!");

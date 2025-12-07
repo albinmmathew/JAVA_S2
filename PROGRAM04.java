@@ -21,8 +21,8 @@ class array{
 		return arr;
 	}
 	//Function for displaying array
-	public void disp(int arr[]){
-		for (int i = 0; i < arr.length; i++){
+	public void disp(int arr[]) {
+		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + "\t");
 		}
 		System.out.println();
@@ -54,6 +54,7 @@ class array{
 				}
 			}
 		}
+		System.out.println();
 		System.out.println("Sorted Array : ");
 		disp(arr);
 	}
@@ -63,6 +64,7 @@ class PROGRAM04 {
 	public static void main(String args[]){
 		array obj = new array();
 		int a[] = obj.read();
+		System.out.println("Given Array is :");
 		obj.disp(a);
 		obj.search(a);
 		obj.sort(a);
