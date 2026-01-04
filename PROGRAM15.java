@@ -10,7 +10,7 @@ class Person{
 	String name;
 	Scanner sc = new Scanner(System.in);
 	public void read(){
-		System.out.println("Enter your name");
+		System.out.print("Enter your name");
 		name=sc.nextLine();
 	}
 	public void dispPerson(){
@@ -21,7 +21,7 @@ class Person{
 class Teacher extends Person{
 	String subject;
 	public void input(){
-		System.out.println("Enter your subject");
+		System.out.print("Enter your subject");
 		subject = sc.nextLine();
 	}
 	public void dispTeacher(){
@@ -49,16 +49,16 @@ class Car{
 
 class PROGRAM15 {
     public static void main(String args[]){
-		Teacher obj = new Teacher();
-		Car obj2 = new Car();
+		Teacher t = new Teacher();
+		Car c = new Car();
 
 		System.out.println("ISA");
-		obj.read();
-		obj.input();
-		obj.dispPerson();
-		obj.dispTeacher();
+		t.read();
+		t.input();
+		t.dispPerson();
+		t.dispTeacher();
 
 		System.out.println("HASA");
-		obj2.move();
+		c.move();
 	}
 }
