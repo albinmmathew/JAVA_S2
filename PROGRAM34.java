@@ -1,7 +1,7 @@
 /*PROGRAM 34 THREAD PRIORITY
 @ALBIN MAMMEN MATHEW
 Roll No: 08 
-Date: 22/12/2025
+Date: 24/12/2025
 */
 
 class PriorityThread extends Thread {
