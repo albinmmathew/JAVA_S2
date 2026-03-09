@@ -1,2 +1,4 @@
 *.class
 1/
+*.ser
+ojdbc17.jar

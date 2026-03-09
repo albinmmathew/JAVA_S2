@@ -55,12 +55,12 @@ Each file is named **PROGRAMXX.java**, where `XX` is the program number.
 | PROGRAM37.java | Implement Generic class. |
 | PROGRAM38.java | Menu driven program for String operations. |
 | PROGRAM39.java | Implementation of StringBuffer class. |
-| PROGRAM40.java | Server-Client Communication (TCP). |
-| PROGRAM41.java | One-one Chatting application. |
-| PROGRAM42.java | Download content from server. |
-| PROGRAM43.java | Upload content to server. |
-| PROGRAM44.java | Public Chatting / Group Chat. |
-| PROGRAM45.java | Connectionless communication (UDP). |
+| PROGRAM40_CLIENT.java / SERVER.java | Server-Client Communication (TCP). |
+| PROGRAM41_CLIENT.java / SERVER.java | One-one Chatting application. |
+| PROGRAM42_CLIENT.java / SERVER.java | Download content from server. |
+| PROGRAM43_CLIENT.java / SERVER.java | Upload content to server. |
+| PROGRAM44_CLIENT.java / SERVER.java | Public Chatting / Group Chat. |
+| PROGRAM45_CLIENT.java / SERVER.java | Connectionless communication (UDP). |
 | PROGRAM46.java | URL properties: protocol, file, host, path, port. |
 | PROGRAM47.java | Download a file from a given URL. |
 | PROGRAM48.java | Display content of a webpage. |
