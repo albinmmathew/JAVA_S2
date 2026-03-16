@@ -44,13 +44,6 @@ Each file is named **PROGRAMXX.java**, where `XX` is the program number.
 | PROGRAM33.java | Bank deposit/withdrawal (Unsynchronized). |
 | PROGRAM34.java | Demonstrate Thread Priorities. |
 | PROGRAM35.java | ATM operations: Preventing Race Conditions. |
-
----
-
-## To Complete
-
-| Program File | Description |
-|---|---|
 | PROGRAM36.java | Implement Generic method. |
 | PROGRAM37.java | Implement Generic class. |
 | PROGRAM38.java | Menu driven program for String operations. |
@@ -77,6 +70,13 @@ Each file is named **PROGRAMXX.java**, where `XX` is the program number.
 | PROGRAM59.java | LIST control functionality in AWT. |
 | PROGRAM60.java | Checkbox and Radio Button in AWT. |
 | PROGRAM61.java | Menus and MenuItems using AWT. |
+
+---
+
+## To Complete
+
+| Program File | Description |
+|---|---|
 | PROGRAM62.java | Project Marketplace/Final Implementation. |
 
 ---
