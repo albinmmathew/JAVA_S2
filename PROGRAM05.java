@@ -4,7 +4,6 @@ Roll No: 08
 Date: 27/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class ArrayPassing {
@@ -20,6 +19,7 @@ class ArrayPassing {
 		for(i = 0;i < n;i++){
 			a[i] = s.nextInt();
 		}
+		s.close();
 		return a;
 	}
 	//Function to display a given array

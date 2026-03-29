@@ -42,7 +42,7 @@ public class PROGRAM27 {
 
         Odd O = new Odd(n);
         Even E = new Even(n);
-        
+        sc.close();
         O.start();
         E.start();
         

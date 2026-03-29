@@ -4,7 +4,6 @@ Roll No: 08
 Date: 27/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 class array{
 	//Function to read and return an array
@@ -18,6 +17,7 @@ class array{
 			System.out.println("Enter the element at [" + i + "] :");
 			arr[i] = s.nextInt();
 		}
+		s.close();
 		return arr;
 	}
 	//Function for displaying array
@@ -39,6 +39,7 @@ class array{
 				isFound = true;
 			}
 		}
+		s.close();
 		if (!isFound)
 			System.out.println("Element not found.");
 	}

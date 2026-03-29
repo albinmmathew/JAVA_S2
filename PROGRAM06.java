@@ -4,7 +4,6 @@ Roll No: 08
 Date: 27/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 class MOpp{
 	Scanner s = new Scanner(System.in);

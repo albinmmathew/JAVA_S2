@@ -4,7 +4,6 @@ Roll No: 08
 Date: 06/12/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class Complexno{
@@ -71,6 +70,7 @@ class PROGRAM12 {
                     result.disp();
 					break;
 				case 4:
+					s.close();
 					System.exit(0);
 				default:
 					System.out.println("Invalid Choice!!");

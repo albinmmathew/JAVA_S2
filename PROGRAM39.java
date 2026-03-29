@@ -4,7 +4,6 @@ Roll No: 08
 Date: 12/01/2026
 */
 
-import java.io.*;
 import java.util.*;
 
 public class PROGRAM39 {
@@ -67,6 +66,7 @@ public class PROGRAM39 {
                     System.out.println("Current Capacity: " + sb.capacity());
                     break;
                 case 7:
+					sc.close();
                     System.exit(0);
                 default:
                     System.out.println("Invalid Choice");

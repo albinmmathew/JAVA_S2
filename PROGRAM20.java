@@ -51,6 +51,7 @@ class PROGRAM20 {
                     obj.mov();
                     break;
                 case 3:
+					sc.close();
                     System.exit(0);
                 default:
                     System.out.println("INVALID CHOICE!!");

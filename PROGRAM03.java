@@ -4,7 +4,6 @@ Roll No: 08
 Date: 27/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class PROGRAM03 {
@@ -22,5 +21,6 @@ class PROGRAM03 {
 		} while(guess != key);
 		System.out.println("Congrats!!");
 		System.out.println("You have predicted the secret number in " + count + " attempts.");
+		s.close();
 	}
 }

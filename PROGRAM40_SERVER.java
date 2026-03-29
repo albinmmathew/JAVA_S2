@@ -19,6 +19,7 @@ public class PROGRAM40_SERVER {
             String str = (String) dis.readUTF();
             System.out.println("Message from Client: " + str);
             dos.writeUTF("Message received successfully!");
+			ss.close();
         } catch (Exception e) {
             System.out.println(e);
         }

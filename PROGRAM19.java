@@ -4,8 +4,6 @@ Roll No: 08
 Date: 10/12/2025
 */
 
-import java.util.*;
-
 interface  Calculate{
 	public void result();
 }

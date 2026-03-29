@@ -44,7 +44,7 @@ public class PROGRAM28 {
         }
         System.out.print("Enter element to search: ");
         int key = s.nextInt();
-
+		s.close();
         int th = n / 5;
         for (int i = 0; i <= th; i++) {
             index=i*5;

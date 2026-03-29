@@ -4,7 +4,6 @@ Roll No: 08
 Date: 29/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 class Max{
 	//Function to find max of two numbers
@@ -22,5 +21,6 @@ class PROGRAM07{
 		int c = s.nextInt();
 		int greatest = m.max(m.max(a,b),c);
 		System.out.println("Maximum of the given Numbers is " + greatest);
+		s.close();
 	}
 }

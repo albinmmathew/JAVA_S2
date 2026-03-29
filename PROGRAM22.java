@@ -19,14 +19,13 @@ class Authen {
 		try{
 			System.out.println("Enter your age:");
 			age = sc.nextInt();
-		
+			sc.close();
 			if(age >= 18){
 				System.out.println("You are eligible.");
 			}else{
 				throw new UDE("You are not eligible");
 			}
 		}catch(UDE e){
-
 			System.out.println("Error : " + e.getMessage());
 		}
 	}

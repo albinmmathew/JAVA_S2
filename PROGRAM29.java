@@ -30,7 +30,7 @@ public class PROGRAM29 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number");
         n = sc.nextInt();
-
+		sc.close();
         Power p1 = new Power(n, "sq");
         Power p2 = new Power(n, "cube");
 

@@ -4,7 +4,6 @@ Roll No: 08
 Date: 29/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class CalculatorOOP {
@@ -16,6 +15,7 @@ class CalculatorOOP {
 		a = s.nextInt();
 		System.out.print("Enter b : ");
 		b = s.nextInt();
+		s.close();
 	}
 	//Function to add and display the sum
 	public void add(){
@@ -70,6 +70,7 @@ class PROGRAM11 {
 					calc.divide();
 					break;
 				case 5:
+					s.close();
 					System.exit(0);
 				default:
 					System.out.println("Invalid Choice!!");

@@ -57,5 +57,6 @@ class PROGRAM18 {
             }
             if(!found)
                 System.out.println("Employee not found");
+			sc.close();
     }
 }

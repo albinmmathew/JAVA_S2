@@ -4,7 +4,6 @@ Roll No: 08
 Date: 30/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class Student {
@@ -21,6 +20,7 @@ class Student {
 		sname = s.nextLine();
 		System.out.print("Enter Program: ");
 		sprogram = s.nextLine();
+		s.close();
 	}
 	// Function to display Student Details
 	public void display() {

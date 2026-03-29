@@ -4,7 +4,6 @@ Roll No: 08
 Date: 29/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class SLIDER {

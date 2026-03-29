@@ -4,7 +4,6 @@ Roll No: 08
 Date: 29/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class Palindrome{
@@ -35,6 +34,7 @@ class PROGRAM08 {
 		int a = s.nextInt();
 		int r = p.rev(a);
 		System.out.println("Reverse : " + r);
+		s.close();
 		if(p.check(a))
 			System.out.println("It is a Palindrome.");
 		else

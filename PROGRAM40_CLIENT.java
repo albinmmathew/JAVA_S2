@@ -16,6 +16,8 @@ public class PROGRAM40_CLIENT {
             dos.writeUTF(msg);
             String response = dis.readUTF();
             System.out.println("Server says: " + response);
+			sc.close();
+			s.close();
         } catch (Exception e) {
             System.out.println(e);
         }

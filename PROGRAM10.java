@@ -4,7 +4,6 @@ Roll No: 08
 Date: 29/11/2025
 */
 
-import java.io.*;
 import java.util.*;
 
 class Recursive {
@@ -36,5 +35,6 @@ class PROGRAM10 {
 		System.out.println("Descending order: ");
 		r.DescRec(n);
 		System.out.println();
+		s.close();
 	}
 }

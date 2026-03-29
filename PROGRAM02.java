@@ -4,7 +4,6 @@ Roll No: 08
 Date: 17/11/2025
 */
 
-import java.io.*;
 
 class PROGRAM02 {
 	public static void main(String args[]) {
